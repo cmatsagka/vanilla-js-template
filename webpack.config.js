@@ -8,6 +8,7 @@ export default {
 		filename: 'main.js',
 		path: path.resolve(import.meta.dirname, 'dist'),
 		clean: true,
+		assetModuleFilename: 'assets/[hash][ext][query]',
 	},
 	devtool: 'eval-source-map',
 	devServer: {
@@ -16,6 +17,7 @@ export default {
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: './src/template.html',
+			favicon: './src/assets/favicon/ico',
 		}),
 	],
 	module: {

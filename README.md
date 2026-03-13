@@ -53,6 +53,17 @@ npm run deploy
 
 ---
 
+### 🧪 Testing
+
+This template comes pre-configured with **Jest**.
+
+- To run tests once: `npm test`
+- To keep tests running while you code: `npm run test:watch`
+
+Tests should be placed in the `src/` folder with the naming convention `filename.test.js`.
+
+---
+
 ### 5. Final Polish
 
 - Go to your GitHub repo Settings > Pages and ensure the branch is set to gh-pages.
